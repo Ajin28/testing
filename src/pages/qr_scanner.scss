@@ -1,0 +1,19 @@
+.qr_scanner{
+    width: 100%;
+   
+   
+    div{
+        padding-top: 0 !important;
+        position: relative !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex;
+        width: 100%;
+    }
+
+    video{
+        position: relative !important;
+        width: 80% !important;
+    }
+
+}
