@@ -9,6 +9,7 @@ export const QrScanner = (props) => {
   return (
    <div>
       <QrReader className='qr_scanner'
+      constraints={ { facingMode: "environment" }}
         onResult={(result, error) => {
           if (!!result) {
             const scanned_value = result?.text
